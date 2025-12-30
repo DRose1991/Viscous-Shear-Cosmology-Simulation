@@ -31,6 +31,12 @@ This project verifies the VSC hypothesis across three critical cosmological scal
 * **Code:** `VSC_TullyFisher.py`
 * **The Physics:** Tests the viscosity model across 5 orders of magnitude of galaxy mass using Freeman's Law geometry ($R \propto M^{0.5}$).
 * **The Result:** The simulation produces a Log-Log slope of **0.25**, exactly matching the Baryonic Tully-Fisher relation ($M \propto V^4$). This proves the VSC model scales correctly from dwarf galaxies to super-giants.
+
+### 5. Big Bang Nucleosynthesis (BBN) Safety Check
+* **Code:** `VSC_Nucleosynthesis.py`
+* **The Physics:** Compares the viscous pressure ($P = 3\xi H$) to the radiation pressure during the first 3 minutes of the universe.
+* **The Result:** With $\xi \approx 10^6$ Pa·s, the viscous contribution is **19 orders of magnitude** below the radiation pressure. This proves the VSC model does not interfere with standard nucleosynthesis.
+
 ---
 
 ## 🚀 How to Run
