@@ -37,6 +37,11 @@ This project verifies the VSC hypothesis across three critical cosmological scal
 * **The Physics:** Compares the viscous pressure ($P = 3\xi H$) to the radiation pressure during the first 3 minutes of the universe.
 * **The Result:** With $\xi \approx 10^6$ Pa·s, the viscous contribution is **19 orders of magnitude** below the radiation pressure. This proves the VSC model does not interfere with standard nucleosynthesis.
 
+### 6. Relativistic Causality Check (Israel-Stewart Formalism)
+* **Code:** `VSC_Causality.py`
+* **The Physics:** Calculates the characteristic signal velocity ($v_{signal}$) of the viscous vacuum using the relaxation time approximation ($\tau_\Pi$).
+* **The Result:** The model yields a signal propagation speed of $v \approx 0.58c$ (below the speed of light), confirming that the theory respects **Special Relativity** and does not violate causality.
+
 ---
 
 ## 🚀 How to Run
