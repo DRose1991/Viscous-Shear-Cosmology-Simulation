@@ -42,6 +42,15 @@ This project verifies the VSC hypothesis across three critical cosmological scal
 * **The Physics:** Calculates the characteristic signal velocity ($v_{signal}$) of the viscous vacuum using the relaxation time approximation ($\tau_\Pi$).
 * **The Result:** The model yields a signal propagation speed of $v \approx 0.58c$ (below the speed of light), confirming that the theory respects **Special Relativity** and does not violate causality.
 
+## Latest Verification: Solving the JADES-GS-z14-0 "Impossible" Galaxy
+Recent JWST/ALMA observations of the galaxy **JADES-GS-z14-0** (z=14.18) revealed a dynamical mass of $\approx 2.5 \times 10^9 M_\odot$, which is significantly higher than its stellar mass of $\approx 5 \times 10^8 M_\odot$. In standard $\Lambda$CDM, this requires massive dark matter clumping in a very young universe.
+
+**VSC Solution:**
+Using the `VSC_JADES.py` simulation, we demonstrate that this mass gap is a natural result of the **Shear-Locked Vacuum**. Because the background density at $z=14$ is ~3,500x higher than today, the vacuum exhibits non-linear "stiffening." 
+
+- **Result:** The VSC model recovers the observed 200 km/s rotation velocity without requiring dark matter particles.
+- **Significance:** This provides a mechanical explanation for why early galaxies appear more "mature" than predicted by standard models.
+
 ---
 
 ## 🚀 How to Run
