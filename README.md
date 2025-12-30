@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/1125026748.svg)](https://doi.org/10.5281/zenodo.18091406)
+
 # Viscous Shear Cosmology (VSC) Simulation
 
 ### A Rheological Approach to Galactic Dynamics
@@ -21,6 +23,7 @@ You can run this simulation in your browser via Google Colab or locally on your 
 1. Open the file `VSC_Simulation.ipynb` (or copy the script).
 2. Click "Run All".
 3. View the generated Rotation Curve comparison plot.
+
 
 ### Option 2: Local Python
 Requires `numpy` and `matplotlib`.
