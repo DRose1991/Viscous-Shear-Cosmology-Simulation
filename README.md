@@ -42,7 +42,7 @@ This project verifies the VSC hypothesis across three critical cosmological scal
 * **The Physics:** Calculates the characteristic signal velocity ($v_{signal}$) of the viscous vacuum using the relaxation time approximation ($\tau_\Pi$).
 * **The Result:** The model yields a signal propagation speed of $v \approx 0.58c$ (below the speed of light), confirming that the theory respects **Special Relativity** and does not violate causality.
 
-## Latest Verification: Solving the JADES-GS-z14-0 "Impossible" Galaxy
+## 7. Latest Verification: Solving the JADES-GS-z14-0 "Impossible" Galaxy
 Recent JWST/ALMA observations of the galaxy **JADES-GS-z14-0** (z=14.18) revealed a dynamical mass of $\approx 2.5 \times 10^9 M_\odot$, which is significantly higher than its stellar mass of $\approx 5 \times 10^8 M_\odot$. In standard $\Lambda$CDM, this requires massive dark matter clumping in a very young universe.
 
 **VSC Solution:**
@@ -50,6 +50,14 @@ Using the `VSC_JADES.py` simulation, we demonstrate that this mass gap is a natu
 
 - **Result:** The VSC model recovers the observed 200 km/s rotation velocity without requiring dark matter particles.
 - **Significance:** This provides a mechanical explanation for why early galaxies appear more "mature" than predicted by standard models.
+
+### 8. Resolution of the Hubble Tension (Laniakea Bulk Flow)
+**Problem:** The 5$\sigma$ discrepancy between the Early Universe expansion rate ($H_0 \approx 67.4$) and the Local Universe rate ($H_0 \approx 73.0$).
+
+**VSC Solution:** Our simulation (`VSC_Laniakea_Sim.py`) demonstrates that this "tension" is a kinematic artifact caused by our local environment. The Local Group is not stationary; it is moving at $\approx 600$ km/s along the Laniakea Supercluster filament. 
+
+* **Mechanism:** When this bulk flow vector is subtracted from local supernova data (which often assumes a closer-to-rest frame), the apparent "local" expansion rate drops.
+* **Result:** The simulation shows that accounting for this vector realigns local measurements ($H_{local} - v_{bias}$) with the global Planck value ($H_{global} \approx 67.4$), effectively resolving the tension without new physics.
 
 ---
 
