@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software to benchmark cosmological models, please cite it as below."
+authors:
+- family-names: "Rose"
+  given-names: "Dustin Allen"
+  alias: "Ink"
+  orcid: "https://orcid.org/0000-0000-0000-0000" # Optional: Add if you have one
+title: "Viscous Shear Cosmology (VSC): A Python Benchmark for the Hubble Tension"
+version: 1.0.0
+doi: 10.5281/zenodo.123456 # You can get a real DOI later via Zenodo
+date-released: 2025-12-31
+url: "https://github.com/YOUR-USERNAME/viscous-shear-cosmology"
+preferred-citation:
+  type: article
+  authors:
+  - family-names: "Rose"
+    given-names: "Dustin Allen"
+    alias: "Ink"
+  journal: "GitHub Repository"
+  title: "The Theory of Viscous Shear Cosmology: Resolving the Hubble Tension via Dynamic Vacuum Viscosity"
+  year: 2025
