@@ -86,11 +86,14 @@ Using the `VSC_GW_TwoFluid.py` simulation, we tested signal propagation in a **T
 You can run these scripts locally or in the cloud (Google Colab).
 
 ### Prerequisites
-* Python 3.x
-* `numpy`
-* `matplotlib`
-* `scipy`
+* `Python 3.x`
+* `Numpy`
+* `SciPy`
+* `Matplotlib`
+* `emcee`
+* `corner`
 
+corner
 ### Installation
 ```bash
 git clone [https://github.com/YOUR_USERNAME/Viscous-Shear-Cosmology-Simulation.git](https://github.com/YOUR_USERNAME/Viscous-Shear-Cosmology-Simulation.git)
