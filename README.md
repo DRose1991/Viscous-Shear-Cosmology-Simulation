@@ -1,12 +1,24 @@
 [![DOI](https://zenodo.org/badge/1125026748.svg)](https://doi.org/10.5281/zenodo.18091406)
 
-# Viscous Shear Cosmology (VSC) Simulations
+Title: Viscous Shear Cosmology (VSC) Simulation Code: MCMC Parameter Constraints and Expansion History
 
-### A Rheological Field Theory for Unified Dark Sector Physics
+Description: This repository contains the Python simulation code and data analysis scripts associated with the paper "Viscous Shear Cosmology: A Rheological Field Theory for Super-Eddington Accretion and Unified Dark Energy" by Dustin Rose.
+
+Scientific Context: Viscous Shear Cosmology (VSC) proposes that the physical vacuum behaves as a Dilatant Vacuum Condensate (DVC) with non-zero bulk viscosity. This rheological property generates an effective negative pressure that drives cosmic acceleration without requiring a Cosmological Constant (Λ). This software package was developed to statistically validate this hypothesis against observational data.
 
 This repository contains the numerical simulations validating the **Viscous Shear Cosmology (VSC)** model. This framework treats spacetime not as an empty geometry, but as a physical superfluid condensate with non-zero viscosity.
 
 By applying **Israel-Stewart causal thermodynamics** and **Non-Newtonian fluid dynamics** to the vacuum, these simulations demonstrate that "Dark Matter" and "Dark Energy" can be derived as mechanical effects of vacuum viscosity.
+
+Key Features & Functionality:
+
+MCMC Parameter Estimation: Utilizes the emcee ensemble sampler to constrain the free parameters of the VSC model (H0​, Ωm​, ζvisc​) using Cosmic Chronometer data (0<z<2).
+
+Hubble Tension Resolution: Reproduces the analysis demonstrating how negative bulk viscosity resolves the discrepancy between Planck (H0​≈67.4) and SH0ES (H0​≈73.0) measurements.
+
+Expansion History Simulation: Solves the modified Friedmann equations to generate expansion history trajectories (H(z)) for VSC vs. Standard ΛCDM.
+
+Figure Reproduction: Includes scripts to generate the key figures from the manuscript, including the Posterior Corner Plots and the Best-Fit Hubble Diagram.
 
 ## 📂 Repository Contents
 
