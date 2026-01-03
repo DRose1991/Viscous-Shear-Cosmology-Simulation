@@ -4,10 +4,10 @@ authors:
 - family-names: "Rose"
   given-names: "Dustin Allen"
   alias: "Ink"
-  orcid: "https://orcid.org/0009-0002-9965-3660" # Optional: Add if you have one
+  orcid: "https://orcid.org/0009-0002-9965-3660" 
 title: "Viscous Shear Cosmology (VSC): A Python Benchmark for the Hubble Tension"
 version: 1.1.0
-doi: 10.5281/zenodo.123456 # You can get a real DOI later via Zenodo
+doi: 10.5281/zenodo.18091407
 date-released: 2025-12-31
 url: "https://github.com/DRose1991/viscous-shear-cosmology"
 preferred-citation:
