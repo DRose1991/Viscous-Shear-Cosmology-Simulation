@@ -28,8 +28,8 @@ The core finding of this repository is the derivation of the **Universal Shear E
 
 Where optimization against SPARC and Cosmic Chronometer data yields:
 
-* **$n = 0.467$** (Inverse-square-root geometric scaling characteristic of turbulent boundary layers).
-* **$S_{crit} = 100.0 \text{ km s}^{-1} \text{kpc}^{-1}$** (Universal Critical Shear Threshold).
+* **$n = 0.467$** (Inverse-square-root geometric scaling characteristic of turbulent boundary layers)
+* **$S_{crit} = 100.0 \text{ km s}^{-1} \text{kpc}^{-1}$** (Critical Shear Threshold)
 
 ---
 
@@ -51,20 +51,28 @@ The codebase is organized by astrophysical scale and testing regime.
 ### 1. The Universal Law (Theory of Everything)
 * `VSC_Universal_Law_RealData.ipynb` - **The Core Proof.** Global optimization for $n$ and $S_{crit}$ using SPARC data.
 * `VSC_Universal_LawAplliedToSaturn.ipynb` - Proof of local Newtonian preservation ($\Delta v < 5$ m/s).
-* `VSC_Sanity_Check.ipynb` - Residual comparison against $\Lambda$CDM using Cosmic Chronometers.
+* `VSC_Sanity_Check.ipynb` - Residual comparison against $\Lambda$CDM using Cosmic Chronometer data.
 
 ### 2. Galactic Dynamics (Dark Matter Alternative)
 * `VSC_M33_Check.ipynb` - Analysis of the Triangulum Galaxy (Gas-rich dwarf).
 * `VSC_LocalShearTerm_Andromeda.ipynb` - Detailed breakdown of the M31 rotation curve.
 * `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation ($M_b \propto v^4$) from viscous principles.
+* `VSC_NGC5055_Check.ipynb` & `VSC_NGC3198_Check.ipynb` - Validation against intermediate and "dark matter poster child" galaxies.
 
 ### 3. Cosmic Expansion & Hubble Tension
 * `VSC_HubbleTension_Solver.ipynb` - Resolving $H_0$ tension via vacuum viscosity.
-* `VSC_Expansion_RealData.ipynb` - Fits to Cosmic Chronometer (Moresco et al. 2016) and Supernova datasets.
+* `VSC_Expansion_RealData.ipynb` - Fits to Cosmic Chronometer and Supernova datasets.
+* `VSCModel_Comparison_LCDM.ipynb` - Statistical comparison ($\chi^2$) between VSC and $\Lambda$CDM.
 
 ### 4. Early Universe & High Redshift
-* `VSC_Nucleosynthesis_RealData.ipynb` - Validation against Big Bang Nucleosynthesis (BBN) element abundance.
+* `VSC_Nucleosynthesis_RealData.ipynb` - Validation against Big Bang Nucleosynthesis (BBN).
 * `VSC_JADES_Solving_RealData.ipynb` - Analysis of high-redshift galaxy formation rates via JWST/JADES data.
+* `VSC_Accretion_LID-568_Proof.ipynb` - Super-Eddington accretion modeling.
+
+### 5. Theoretical Foundations
+* `VSC_Causality.ipynb` - Analysis of causal structure and light cones.
+* `VSC_PhiResistanceAndLeastAction.ipynb` - Derivation from the Principle of Least Action.
+* `VSC_GW_Two-Fluid_RealData.ipynb` - Gravitational Wave propagation in a viscous vacuum.
 
 ---
 
