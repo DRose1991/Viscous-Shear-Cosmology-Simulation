@@ -28,8 +28,8 @@ The core finding of this repository is the derivation of the **Universal Shear E
 
 Where optimization against SPARC and Cosmic Chronometer data yields:
 
-* **$n = 0.467$** (Inverse-square-root geometric scaling)
-* **$S_{crit} = 100.0 \text{ km s}^{-1} \text{kpc}^{-1}$** (Critical Shear Threshold)
+* **$n = 0.467$** (Inverse-square-root geometric scaling characteristic of turbulent boundary layers).
+* **$S_{crit} = 100.0 \text{ km s}^{-1} \text{kpc}^{-1}$** (Universal Critical Shear Threshold).
 
 ---
 
@@ -49,22 +49,22 @@ This repository provides the full theoretical and empirical framework for **Visc
 The codebase is organized by astrophysical scale and testing regime.
 
 ### 1. The Universal Law (Theory of Everything)
-* `VSC_Universal_Law_RealData.ipynb` - **The Core Proof.** Global optimization for $n$ and $S_{crit}$.
+* `VSC_Universal_Law_RealData.ipynb` - **The Core Proof.** Global optimization for $n$ and $S_{crit}$ using SPARC data.
 * `VSC_Universal_LawAplliedToSaturn.ipynb` - Proof of local Newtonian preservation ($\Delta v < 5$ m/s).
-* `VSC_Sanity_Check.ipynb` - Residual comparison against $\Lambda$CDM.
+* `VSC_Sanity_Check.ipynb` - Residual comparison against $\Lambda$CDM using Cosmic Chronometers.
 
 ### 2. Galactic Dynamics (Dark Matter Alternative)
 * `VSC_M33_Check.ipynb` - Analysis of the Triangulum Galaxy (Gas-rich dwarf).
 * `VSC_LocalShearTerm_Andromeda.ipynb` - Detailed breakdown of the M31 rotation curve.
-* `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation from viscous principles.
+* `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation ($M_b \propto v^4$) from viscous principles.
 
 ### 3. Cosmic Expansion & Hubble Tension
 * `VSC_HubbleTension_Solver.ipynb` - Resolving $H_0$ tension via vacuum viscosity.
-* `VSC_Expansion_RealData.ipynb` - Fits to Cosmic Chronometer and Supernova datasets.
+* `VSC_Expansion_RealData.ipynb` - Fits to Cosmic Chronometer (Moresco et al. 2016) and Supernova datasets.
 
 ### 4. Early Universe & High Redshift
-* `VSC_Nucleosynthesis_RealData.ipynb` - Validation against Big Bang Nucleosynthesis (BBN).
-* `VSC_JADES_Solving_RealData.ipynb` - Analysis of high-redshift galaxy formation.
+* `VSC_Nucleosynthesis_RealData.ipynb` - Validation against Big Bang Nucleosynthesis (BBN) element abundance.
+* `VSC_JADES_Solving_RealData.ipynb` - Analysis of high-redshift galaxy formation rates via JWST/JADES data.
 
 ---
 
