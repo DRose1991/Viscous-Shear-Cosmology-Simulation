@@ -4,7 +4,7 @@ This section outlines the theoretical framework deriving the VSC equation from f
 
 ### 1. The Postulates
 
-Standard $\Lambda$CDM cosmology assumes the gravitational constant $G$ is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
+Standard &Lambda;CDM cosmology assumes the gravitational constant $G$ is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
 
 1. **The Vacuum Fluidity Postulate:** Spacetime possesses an intrinsic resistance to flow (viscosity) which acts as a stress tensor coupled to the matter density field.
 2. **The Shear-Dependent Response:** The magnitude of this viscosity is not constant but depends on the local rate of kinematic shear, $\Sigma$.
