@@ -8,7 +8,7 @@ We evaluated the VSC model against observational data across three distinct regi
 
 ### 1.1. The Universal Galactic Shear Law
 
-Using the SPARC database subset (including M31, M33, NGC 5055, and NGC 3198), we performed a global optimization to determine the universal viscous parameters. We found that a single constitutive equation minimizes residuals across the entire mass spectrum:Geff​=GN​[1+(100.0Σshear​​)−0.467]
+Using the SPARC database subset (including M31, M33, NGC 5055, and NGC 3198), we performed a global optimization to determine the universal viscous parameters. We found that a single constitutive equation minimizes residuals across the entire mass spectrum:  Geff​=GN​[1+(100.0Σshear​​)−0.467]
 
 This result (n=0.467) is statistically significant as it lies remarkably close to (n=0.5), suggesting an inverse-square-root scaling law characteristic of turbulent boundary layers in fluid dynamics.
 
