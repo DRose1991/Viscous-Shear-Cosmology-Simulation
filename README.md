@@ -53,11 +53,11 @@ The codebase is organized by astrophysical scale and testing regime.
 
 ### 3. Cosmic Expansion & Hubble Tension
 
-*Tests VSC against the expansion history of the universe () and CMB data.*
+*Tests VSC against the expansion history of the universe (H(z)) and CMB data.*
 
 * `VSC_HubbleTension_Solver.ipynb` - Demonstrates how viscosity naturally resolves the  tension between early and late universe measurements.
 * `VSC_Expansion_RealData.ipynb` - Fits the model to Cosmic Chronometer and Supernova datasets.
-* `VSCModel_Comparison_LCDM.ipynb` - Statistical comparison () between VSC and the Standard Model.
+* `VSCModel_Comparison_LCDM.ipynb` - Statistical comparison (χ2) between VSC and the Standard Model.
 * `VSC_MCMC_Constraints_H0_Prior.ipynb` - Bayesian analysis and parameter constraints.
 
 ### 4. Early Universe & High Redshift
