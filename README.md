@@ -92,3 +92,5 @@ This model was validated using the following peer-reviewed observational dataset
 * **High-Redshift Observations:** JWST/JADES Survey (Public Data Releases 2023/2024).
 * **Solar System Constraints:** NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides).
 * **Theoretical Context:** Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." *The Astrophysical Journal*, 270, 365-370.
+
+---
