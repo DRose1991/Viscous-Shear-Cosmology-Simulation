@@ -76,7 +76,7 @@ This repository provides the full theoretical and empirical framework for **Visc
 
 ```bash
 pip install numpy matplotlib scipy pandas astropy emcee corner
-
+<div></div>
 ---
 
 
