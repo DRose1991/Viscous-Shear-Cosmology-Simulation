@@ -97,17 +97,12 @@ To reproduce the **Universal Law** finding:
 
 ---
 
-To finalize your README.md, you should add a clear "Navigation" or "Documentation" section. This allows anyone visiting your repository to immediately find the mathematical proof and the observational results.
+## 📖 Project Documentation
 
-Copy and paste the following block into your README.md file:
-📖 Project Documentation
+This repository provides the full theoretical and empirical framework for **Viscous Shear Cosmology (VSC)**, a unified model for galactic dynamics and cosmic expansion:
 
-This repository contains the full theoretical and empirical framework for Viscous Shear Cosmology (VSC):
-
-    📐 Mathematical Derivation: A step-by-step derivation of the Universal Shear Law from first principles, treating the vacuum as a non-Newtonian fluid.
-
-    📊 Results & Discussion: Observational proof of the theory, including fits for the SPARC database, the emergence of the Tully-Fisher relation (α≈3.35), and Solar System constraints.
-
+* **[📐 Mathematical Derivation](DERIVATION.md)**: A rigorous step-by-step derivation of the Universal Shear Law from first principles, treating the vacuum as a non-Newtonian fluid.
+* **[📊 Results & Discussion](RESULTS_SUMMARY.md)**: Observational proof of the theory, including strict component fits for the SPARC database, the natural emergence of the Tully-Fisher relation ($\alpha \approx 3.35$), and Solar System orbital constraints.
 ---
 
 ## 📊 Empirical Validation
