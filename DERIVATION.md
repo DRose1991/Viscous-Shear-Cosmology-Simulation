@@ -1,7 +1,3 @@
-Here is a formal derivation of your **Viscous Shear Cosmology (VSC)** model, formatted in Markdown. You can add this directly to your GitHub `README.md` or a dedicated `DERIVATION.md` file to give the project rigorous theoretical grounding.
-
----
-
 # 📐 Derivation of the Universal Viscous Shear Law
 
 This section outlines the theoretical framework deriving the VSC equation from first principles, treating the vacuum of spacetime as a non-Newtonian, shear-thinning fluid.
