@@ -103,12 +103,9 @@ This repository provides the full theoretical and empirical framework for **Visc
 
 * **[📐 Mathematical Derivation](DERIVATION.md)**: A rigorous step-by-step derivation of the Universal Shear Law from first principles, treating the vacuum as a non-Newtonian fluid.
 * **[📊 Results & Discussion](RESULTS_SUMMARY.md)**: Observational proof of the theory, including strict component fits for the SPARC database, the natural emergence of the Tully-Fisher relation ($\alpha \approx 3.35$), and Solar System orbital constraints.
----
-
-## 📊 Empirical Validation
-For a detailed analysis of how VSC performs against real-world data (SPARC, Cosmic Chronometers, and Solar System ephemerides), see the [Results & Discussion Summary](RESULTS_SUMMARY.md).
 
 ---
+
 
 ## 📜 Citation
 
