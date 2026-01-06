@@ -28,8 +28,8 @@ The core finding of this repository is the derivation of the **Universal Shear E
 
 Where optimization against SPARC and Cosmic Chronometer data yields:
 
-* **$n = 0.467$** (Inverse-square-root geometric scaling characteristic of turbulent boundary layers)
-* **$S_{crit} = 100.0 \text{ km s}^{-1} \text{kpc}^{-1}$** (Critical Shear Threshold)
+* **n = 0.467** (Inverse-square-root geometric scaling characteristic of turbulent boundary layers)
+* **Scrit = 100.0 km/s/kpc** (Critical Shear Threshold)
 
 ---
 
@@ -38,7 +38,7 @@ Where optimization against SPARC and Cosmic Chronometer data yields:
 This repository provides the full theoretical and empirical framework for **Viscous Shear Cosmology (VSC)**:
 
 * **[📐 Mathematical Derivation](DERIVATION.md)**: A rigorous step-by-step derivation of the Universal Shear Law from first principles, treating the vacuum as a non-Newtonian fluid.
-* **[📊 Results & Discussion](RESULTS_SUMMARY.md)**: Observational proof of the theory, including strict component fits for the SPARC database, the natural emergence of the Tully-Fisher relation ($\alpha \approx 3.35$), and Solar System orbital constraints.
+* **[📊 Results & Discussion](RESULTS_SUMMARY.md)**: Observational proof of the theory, including strict component fits for the SPARC database, the natural emergence of the Tully-Fisher relation, and Solar System orbital constraints.
 
 
 
@@ -46,23 +46,21 @@ This repository provides the full theoretical and empirical framework for **Visc
 
 ## 📂 Repository Structure
 
-The codebase is organized by astrophysical scale and testing regime.
-
 ### 1. The Universal Law (Theory of Everything)
-* `VSC_Universal_Law_RealData.ipynb` - **The Core Proof.** Global optimization for $n$ and $S_{crit}$ using SPARC data.
-* `VSC_Universal_LawAplliedToSaturn.ipynb` - Proof of local Newtonian preservation ($\Delta v < 5$ m/s).
-* `VSC_Sanity_Check.ipynb` - Residual comparison against $\Lambda$CDM using Cosmic Chronometer data.
+* `VSC_Universal_Law_RealData.ipynb` - **The Core Proof.** Global optimization for n and Scrit using SPARC data.
+* `VSC_Universal_LawAplliedToSaturn.ipynb` - Proof of local Newtonian preservation (Velocity deviation < 5 m/s).
+* `VSC_Sanity_Check.ipynb` - Residual comparison against standard models using Cosmic Chronometer data.
 
-### 2. Galactic Dynamics (Dark Matter Alternative)
+### 2. Galactic Dynamics
 * `VSC_M33_Check.ipynb` - Analysis of the Triangulum Galaxy (Gas-rich dwarf).
 * `VSC_LocalShearTerm_Andromeda.ipynb` - Detailed breakdown of the M31 rotation curve.
-* `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation ($M_b \propto v^4$) from viscous principles.
-* `VSC_NGC5055_Check.ipynb` & `VSC_NGC3198_Check.ipynb` - Validation against intermediate and "dark matter poster child" galaxies.
+* `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation (Mass proportional to Velocity^4).
+* `VSC_NGC5055_Check.ipynb` & `VSC_NGC3198_Check.ipynb` - Validation against intermediate spiral galaxies.
 
 ### 3. Cosmic Expansion & Hubble Tension
-* `VSC_HubbleTension_Solver.ipynb` - Resolving $H_0$ tension via vacuum viscosity.
+* `VSC_HubbleTension_Solver.ipynb` - Resolving H0 tension via vacuum viscosity.
 * `VSC_Expansion_RealData.ipynb` - Fits to Cosmic Chronometer and Supernova datasets.
-* `VSCModel_Comparison_LCDM.ipynb` - Statistical comparison ($\chi^2$) between VSC and $\Lambda$CDM.
+* `VSCModel_Comparison_LCDM.ipynb` - Statistical comparison between VSC and the Standard Model.
 
 ### 4. Early Universe & High Redshift
 * `VSC_Nucleosynthesis_RealData.ipynb` - Validation against Big Bang Nucleosynthesis (BBN).
