@@ -72,20 +72,23 @@ This repository provides the full theoretical and empirical framework for **Visc
 * `VSC_PhiResistanceAndLeastAction.ipynb` - Derivation from the Principle of Least Action.
 * `VSC_GW_Two-Fluid_RealData.ipynb` - Gravitational Wave propagation in a viscous vacuum.
 
----
-
 ```bash
 pip install numpy matplotlib scipy pandas astropy emcee corner
+To stop the citations from rendering inside a gray code box, we must remove the triple backticks (```) that surround them.
 
-<br>
 
-**📚 Scientific References & Data Sources**
+📚 Scientific References & Data Sources
 
-* **Galactic Dynamics (SPARC):** Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016). "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves." *The Astronomical Journal*, 152(6), 157.
-* **Cosmic Expansion:** Moresco, M., et al. (2016). "A 6% measurement of the Hubble parameter at z~0.45: direct evidence of the epoch of cosmic re-acceleration." *Journal of Cosmology and Astroparticle Physics*, 2016(05), 014.
-* **Tully-Fisher Relation:** McGaugh, S. S. (2012). "The Baryonic Tully-Fisher Relation of Gas-rich Galaxies as a Test of Gravitational Theory." *The Astronomical Journal*, 143(2), 40.
-* **High-Redshift Observations:** JWST/JADES Survey (Public Data Releases 2023/2024).
-* **Solar System Constraints:** NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides).
-* **Theoretical Context:** Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." *The Astrophysical Journal*, 270, 365-370.
+    Galactic Dynamics (SPARC): Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016). "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves." The Astronomical Journal, 152(6), 157.
 
-<br>
+    Cosmic Expansion: Moresco, M., et al. (2016). "A 6% measurement of the Hubble parameter at z~0.45: direct evidence of the epoch of cosmic re-acceleration." Journal of Cosmology and Astroparticle Physics, 2016(05), 014.
+
+    Tully-Fisher Relation: McGaugh, S. S. (2012). "The Baryonic Tully-Fisher Relation of Gas-rich Galaxies as a Test of Gravitational Theory." The Astronomical Journal, 143(2), 40.
+
+    High-Redshift Observations: JWST/JADES Survey (Public Data Releases 2023/2024).
+
+    Solar System Constraints: NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides).
+
+    Theoretical Context: Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." The Astrophysical Journal, 270, 365-370.
+
+<div></div>
