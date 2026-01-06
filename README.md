@@ -72,9 +72,10 @@ This repository provides the full theoretical and empirical framework for **Visc
 * `VSC_PhiResistanceAndLeastAction.ipynb` - Derivation from the Principle of Least Action.
 * `VSC_GW_Two-Fluid_RealData.ipynb` - Gravitational Wave propagation in a viscous vacuum.
 
-```bash
-pip install numpy matplotlib scipy pandas astropy emcee corner
-To stop the citations from rendering inside a gray code box, we must remove the triple backticks (```) that surround them.
+>```bash
+pip install numpy matplotlib scipy pandas astropy emcee corner.
+<
+
 
 
 📚 Scientific References & Data Sources
