@@ -14,7 +14,7 @@ This result (n=0.467) is statistically significant as it lies remarkably close t
 
 As shown in **Figure 1** below, this single law successfully reproduces the flat rotation curves of high-mass spirals (M31) and the rising rotation curves of gas-rich dwarfs (M33) simultaneously. Crucially, the optimization yielded stellar mass-to-light ratios consistent with population synthesis models (Υ∗​≈1.6−2.5), validating that the model does not require unphysical mass rescaling to fit the data.
 
-*Figure 1:`VSC_StrictUniversalFit.png` Strict Component VSC Fit across diverse galaxy types using the single Universal Law (n=0.467).*
+*Figure 1: VSC_StrictUniversalFit.png Strict Component VSC Fit across diverse galaxy types using the single Universal Law (n=0.467).*
 
 ### 1.2. Emergence of the Tully-Fisher Relation
 
