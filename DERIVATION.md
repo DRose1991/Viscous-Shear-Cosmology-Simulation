@@ -4,47 +4,47 @@ This section outlines the theoretical framework deriving the VSC equation from f
 
 ### 1. The Postulates
 
-Standard CDM cosmology assumes the gravitational constant  is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
+Standard CDM cosmology assumes the gravitational constant (G) is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
 
 1. **The Vacuum Fluidity Postulate:** Spacetime possesses an intrinsic resistance to flow (viscosity) which acts as a stress tensor coupled to the matter density field.
-2. **The Shear-Dependent Response:** The magnitude of this viscosity is not constant but depends on the local rate of kinematic shear, .
+2. **The Shear-Dependent Response:** The magnitude of this viscosity is not constant but depends on the local rate of kinematic shear,(Σ).
 3. **The Newtonian Limit:** In regimes of high shear (e.g., Solar System), the vacuum viscosity vanishes, and physics reduces to standard General Relativity/Newtonian gravity.
 
 ### 2. The Shear Operator
 
-In a rotationally supported system (like a galaxy), the kinematic shear rate  is defined by the gradient of the orbital velocity vector. For a test particle orbiting at radius  with velocity :
+In a rotationally supported system (like a galaxy), the kinematic shear rate (Σ) is defined by the gradient of the orbital velocity vector. For a test particle orbiting at radius (r) with velocity (v): Σ(r)≈​∂r∂v​−rv
 
-In the simplified Keplerian regime where , this scales proportionally to the angular velocity :
+In the simplified Keplerian regime where (v∝r−1/2), this scales proportionally to the angular velocity (Ω): ​​Σ∝rvnewt​​
 
 ### 3. The Constitutive Equation (Power-Law Fluid)
 
-We model the vacuum as a **Bingham-like or Dilatant fluid**. The effective gravitational coupling  is no longer a scalar constant but a function of shear :
+We model the vacuum as a **Bingham-like or Dilatant fluid**. The effective gravitational coupling (Geff​) is no longer a scalar constant but a function of shear (Σ): Geff​=GN​⋅β(Σ)
 
-Where  is the standard Newtonian constant and  is the **Viscous Boost Factor**.
-To satisfy asymptotic flatness in galaxies (low shear) and Keplerian orbits in solar systems (high shear),  must follow a power-law decay:
+Where (GN​) is the standard Newtonian constant and (β(Σ)) is the **Viscous Boost Factor**.
+To satisfy asymptotic flatness in galaxies (low shear) and Keplerian orbits in solar systems (high shear), (β) must follow a power-law decay: β(Σ)=1+(Scrit​Σ​)−n
 
-* ****: The Universal Critical Shear Threshold.
-* ****: The Geometric Scaling Index.
+* ****Scrit​: The Universal Critical Shear Threshold.
+* ****n: The Geometric Scaling Index.
 
 ### 4. Deriving the Rotation Curve
 
-Start with the standard equation for centripetal force balanced by gravity, replacing  with :
+Start with the standard equation for centripetal force balanced by gravity, replacing (G) with (Geff​): rvobs2​​=r2Geff​Mbar​​
 
-Substitute the definition of :
+Substitute the definition of (Geff​): vobs2​=rGN​β(Σ)Mbar​​
 
-Recognizing that the standard Newtonian velocity is :
+Recognizing that the standard Newtonian velocity is vnewt2​=rGN​Mbar​​): vobs2​=vnewt2​⋅β(Σ)
 
-Taking the square root yields the **Universal VSC Equation**:
+Taking the square root yields the **Universal VSC Equation**: vobs​=vnewt​1+(Scrit​Σ​)−n​
 
 ### 5. Asymptotic Behavior (The "Switch")
 
 The power of VSC lies in how this equation behaves at different scales:
 
-**Case A: The Solar System (High Shear)**
+**Case A: (Σ≫Scrit​) The Solar System (High Shear)**
 
 *  (Shear is millions of times higher than critical).
-* The term  approaches **0**.
-* **Result:** . Standard Physics is preserved.
+* The term ((Scrit​Σ​)−n) approaches **0**.
+* **Result:** (vobs​>vnewt​). Standard Physics is preserved.
 
 **Case B: Galactic Outskirts (Low Shear)**
 
@@ -58,8 +58,8 @@ The power of VSC lies in how this equation behaves at different scales:
 
 Through global optimization against the SPARC database and Cosmic Chronometers, we have empirically determined the universal constants:
 
-* ****
-* **** (km/s/kpc)
+* **** n=0.467
+* **** Scrit​=100.0(km/s/kpc)
 
 * 📚 References
 
