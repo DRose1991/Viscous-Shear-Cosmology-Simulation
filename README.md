@@ -105,7 +105,7 @@ To reproduce the **Universal Law** finding:
 
 If you use this code or the VSC model in your research, please cite the repository using the provided `CITATION.cff` file or the following format:
 
-> [Dustin Allen Rose]. (2025). *Viscous Shear Cosmology Simulation Library*. GitHub. [Repository URL]
+> [Dustin Allen Rose]. (2025). *Viscous Shear Cosmology Simulation Library*. GitHub. [https://github.com/DRose1991/Viscous-Shear-Cosmology-Simulation]
 
 ## 📄 License
 
