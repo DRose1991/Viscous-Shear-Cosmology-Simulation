@@ -74,13 +74,11 @@ This repository provides the full theoretical and empirical framework for **Visc
 
 ---
 
-## 🚀 Getting Started
-
-### Prerequisites
 ```bash
 pip install numpy matplotlib scipy pandas astropy emcee corner
 
 ---
+
 
 ## 📚 Scientific References & Data Sources
 
