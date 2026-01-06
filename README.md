@@ -76,6 +76,8 @@ This repository provides the full theoretical and empirical framework for **Visc
 
 📚 Scientific References & Data Sources
 
+This model was validated using the following peer-reviewed observational datasets and literature:
+
     Galactic Dynamics (SPARC): Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016). "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves." The Astronomical Journal, 152(6), 157.
 
     Cosmic Expansion: Moresco, M., et al. (2016). "A 6% measurement of the Hubble parameter at z~0.45: direct evidence of the epoch of cosmic re-acceleration." Journal of Cosmology and Astroparticle Physics, 2016(05), 014.
