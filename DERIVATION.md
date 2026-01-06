@@ -15,13 +15,13 @@ Standard $\Lambda$CDM cosmology assumes the gravitational constant $G$ is invari
 In a rotationally supported system (like a galaxy), the kinematic shear rate $\Sigma$ is defined by the gradient of the orbital velocity vector. For a test particle orbiting at radius $r$ with velocity $v$:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?\Sigma(r)\approx\left|\frac{\partial&space;v}{\partial&space;r}-\frac{v}{r}\right|" title="Shear Operator" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}\Sigma(r)\approx\left|\frac{\partial&space;v}{\partial&space;r}-\frac{v}{r}\right|" title="Shear Operator" />
 </div>
 
 In the simplified Keplerian regime where $v \propto r^{-1/2}$, this scales proportionally to the angular velocity $\Omega$:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?\Sigma\propto\frac{v_{newt}}{r}" title="Keplerian Shear" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}\Sigma\propto\frac{v_{newt}}{r}" title="Keplerian Shear" />
 </div>
 
 ### 3. The Constitutive Equation (Power-Law Fluid)
@@ -29,14 +29,14 @@ In the simplified Keplerian regime where $v \propto r^{-1/2}$, this scales propo
 We model the vacuum as a **Bingham-like or Dilatant fluid**. The effective gravitational coupling $G_{eff}$ is no longer a scalar constant but a function of shear $\Sigma$:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?G_{eff}=G_{N}\cdot\beta(\Sigma)" title="Effective Gravity" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}G_{eff}=G_{N}\cdot\beta(\Sigma)" title="Effective Gravity" />
 </div>
 
 Where $G_{N}$ is the standard Newtonian constant and $\beta(\Sigma)$ is the **Viscous Boost Factor**.
 To satisfy asymptotic flatness in galaxies (low shear) and Keplerian orbits in solar systems (high shear), $\beta$ must follow a power-law decay:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?\beta(\Sigma)=1+\left(\frac{\Sigma}{S_{crit}}\right)^{-n}" title="Viscous Boost Factor" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}\beta(\Sigma)=1+\left(\frac{\Sigma}{S_{crit}}\right)^{-n}" title="Viscous Boost Factor" />
 </div>
 
 * **$S_{crit}$**: The Universal Critical Shear Threshold.
@@ -47,25 +47,25 @@ To satisfy asymptotic flatness in galaxies (low shear) and Keplerian orbits in s
 Start with the standard equation for centripetal force balanced by gravity, replacing $G$ with $G_{eff}$:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?\frac{v_{obs}^2}{r}=\frac{G_{eff}M_{bar}}{r^2}" title="Force Balance" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}\frac{v_{obs}^2}{r}=\frac{G_{eff}M_{bar}}{r^2}" title="Force Balance" />
 </div>
 
 Substitute the definition of $G_{eff}$:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?v_{obs}^2=\frac{G_{N}\beta(\Sigma)M_{bar}}{r}" title="Substitute Geff" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}v_{obs}^2=\frac{G_{N}\beta(\Sigma)M_{bar}}{r}" title="Substitute Geff" />
 </div>
 
 Recognizing that the standard Newtonian velocity is $v_{newt}^2 = \frac{G_{N} M_{bar}}{r}$:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?v_{obs}^2=v_{newt}^2\cdot\beta(\Sigma)" title="Velocity Squared" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}v_{obs}^2=v_{newt}^2\cdot\beta(\Sigma)" title="Velocity Squared" />
 </div>
 
 Taking the square root yields the **Universal VSC Equation**:
 
 <div align="center">
-  <img src="https://latex.codecogs.com/svg.image?v_{obs}=v_{newt}\sqrt{1+\left(\frac{\Sigma}{S_{crit}}\right)^{-n}}" title="Universal VSC Equation" />
+  <img src="https://latex.codecogs.com/svg.image?\pagecolor{white}v_{obs}=v_{newt}\sqrt{1+\left(\frac{\Sigma}{S_{crit}}\right)^{-n}}" title="Universal VSC Equation" />
 </div>
 
 ### 5. Asymptotic Behavior (The "Switch")
@@ -98,4 +98,13 @@ Through global optimization against the SPARC database and Cosmic Chronometers, 
 ### 📚 References
 
 **Galactic Rotation Data (SPARC & M31/M33):**
-* Lelli, F., McGaugh, S
+* Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016). "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves." *The Astronomical Journal*, 152(6), 157. [arXiv:1606.01832]
+* Corbelli, E. (2003). "Dark matter and visible baryons in M33." *Monthly Notices of the Royal Astronomical Society*, 342(1), 199-207. [arXiv:astro-ph/0302318]
+* Sofue, Y. (2015). "Dark haloes of M 31 and the Milky Way." *Publications of the Astronomical Society of Japan*, 67(4), 75. [arXiv:1504.05368]
+
+**Cosmic Expansion Data (Cosmic Chronometers):**
+* Moresco, M., et al. (2016). "A 6% measurement of the Hubble parameter at z~0.45: direct evidence of the epoch of cosmic re-acceleration." *Journal of Cosmology and Astroparticle Physics*, 2016(05), 014. [arXiv:1601.01701]
+* Farooq, O., et al. (2017). "Hubble constant and dark energy constraints from high-redshift observational H(z) data." *The Astrophysical Journal*, 835(1), 26. [arXiv:1607.03537]
+
+**Solar System & Planetary Data:**
+* NASA Planetary Fact Sheet: https://nssdc.gsfc.nasa.gov/planetary/factsheet/ (Saturn Orbital Parameters)
