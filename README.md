@@ -73,11 +73,9 @@ This repository provides the full theoretical and empirical framework for **Visc
 * `VSC_GW_Two-Fluid_RealData.ipynb` - Gravitational Wave propagation in a viscous vacuum.
 
 >```bash
-pip install numpy matplotlib scipy pandas astropy emcee corner.
-<
+pip install numpy matplotlib scipy pandas astropy emcee corner.<
 
-
-
+>
 📚 Scientific References & Data Sources
 
     Galactic Dynamics (SPARC): Lelli, F., McGaugh, S. S., & Schombert, J. M. (2016). "SPARC: Mass Models for 175 Disk Galaxies with Spitzer Photometry and Accurate Rotation Curves." The Astronomical Journal, 152(6), 157.
@@ -90,6 +88,6 @@ pip install numpy matplotlib scipy pandas astropy emcee corner.
 
     Solar System Constraints: NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides).
 
-    Theoretical Context: Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." The Astrophysical Journal, 270, 365-370.
+    Theoretical Context: Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." The Astrophysical Journal, 270, 365-370.<
 
 <div></div>
