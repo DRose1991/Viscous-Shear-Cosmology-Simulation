@@ -97,6 +97,11 @@ To reproduce the **Universal Law** finding:
 
 ---
 
+## 📊 Empirical Validation
+For a detailed analysis of how VSC performs against real-world data (SPARC, Cosmic Chronometers, and Solar System ephemerides), see the [Results & Discussion Summary](RESULTS_SUMMARY.md).
+
+---
+
 ## 📜 Citation
 
 If you use this code or the VSC model in your research, please cite the repository using the provided `CITATION.cff` file or the following format:
