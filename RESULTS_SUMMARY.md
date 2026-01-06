@@ -14,7 +14,7 @@ This result (n=0.467) is statistically significant as it lies remarkably close t
 
 As shown in **Figure 1** below, this single law successfully reproduces the flat rotation curves of high-mass spirals (M31) and the rising rotation curves of gas-rich dwarfs (M33) simultaneously. Crucially, the optimization yielded stellar mass-to-light ratios consistent with population synthesis models (Υ∗​≈1.6−2.5), validating that the model does not require unphysical mass rescaling to fit the data.
 
-*Figure 1: Strict Component VSC Fit across diverse galaxy types using the single Universal Law (n=0.467).*
+*Figure 1:`VSC_StrictUniversalFit.png` Strict Component VSC Fit across diverse galaxy types using the single Universal Law (n=0.467).*
 
 ### 1.2. Emergence of the Tully-Fisher Relation
 
@@ -22,7 +22,7 @@ Without any additional tuning, the VSC model naturally recovers the baryonic Tul
 
 **Figure 2** demonstrates this emergent behavior, yielding a log-log slope of (α≈3.35−3.99). This suggests that the empirical Tully-Fisher relation is not a fundamental law of dark matter halos, but a geometric consequence of vacuum viscosity scaling with the square root of shear (v∝Σ−0.5→M∝v4).
 
-*Figure 2: The VSC model naturally recovers the Tully-Fisher slope (~4.0) from geometric principles.*
+*Figure 2:`VSC_TullyFisher_Proof.png` The VSC model naturally recovers the Tully-Fisher slope (~4.0) from geometric principles.*
 
 ### 1.3. Solar System Constraints
 
@@ -30,7 +30,7 @@ A critical failure mode for many modified gravity theories (e.g., MOND) is the v
 
 Due to the high shear rate of planetary orbits ( km s$^{-1}$ kpc$^{-1}$), the viscous term ((Σ/Scrit​)−0.467) becomes negligible. The model predicts a velocity deviation for Saturn of (Δv<5) m/s relative to Newtonian prediction (**Figure 3**), which is below the detection threshold of current ephemerides. This confirms that VSC naturally "switches off" in high-shear local environments.
 
-*Figure 3: The "Turn-Off" Mechanism. Viscosity dominates at galactic scales (green) but vanishes at Solar System scales (red).*
+*Figure 3:`VSC_Saturn.png` The "Turn-Off" Mechanism. Viscosity dominates at galactic scales (green) but vanishes at Solar System scales (red).*
 
 ### 1.4. Cosmic Expansion History
 
@@ -38,7 +38,7 @@ We compared the VSC prediction for the Hubble parameter evolution (H(z)) against
 
 As illustrated in **Figure 4**, the VSC residual curve follows the observational data within (1σ) error bars. This indicates that a viscous vacuum successfully mimics the accelerating expansion attributed to Dark Energy, providing a unified explanation for both galactic dynamics and cosmic acceleration without requiring two separate dark entities.
 
-*Figure 4: Residual analysis of VSC expansion history vs. Cosmic Chronometer data.*
+*Figure 4:`VSC_Sanity_Check.png` Residual analysis of VSC expansion history vs. Cosmic Chronometer data.*
 
 ---
 
