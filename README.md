@@ -53,7 +53,7 @@ The codebase is organized by astrophysical scale and testing regime.
 * `VSC_LocalShearTerm_Andromeda.ipynb` & `VSC_Local_Shear_Proof.ipynb` - Detailed breakdown of the M31 rotation curve.
 * `VSC_NGC5055_Check.ipynb` & `VSC_NGC3198_Check.ipynb` - Validation against intermediate and "dark matter poster child" galaxies.
 * `VSC_GalaxyRotationCurveAudit.ipynb` - Broader audit of rotation curve phenomenology.
-* `VSC_TullyFisher.ipynb` - Derivation of the Tully-Fisher relation from viscous principles.
+* `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation from viscous principles.
 
 ### 3. Cosmic Expansion & Hubble Tension
 
