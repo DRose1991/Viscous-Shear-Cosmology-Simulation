@@ -1,9 +1,5 @@
 [![DOI](https://zenodo.org/badge/1125026748.svg)](https://doi.org/10.5281/zenodo.18091406)
 
-Here is a professional, comprehensive `README.md` for your GitHub repository. It organizes your notebooks into logical scientific categories (Galactic, Cosmological, Local) and highlights the key physical findings ("The Universal Law") that we established in your recent simulations.
-
----
-
 # Viscous Shear Cosmology (VSC) Simulation Library
 
 ### A Scale-Invariant Solution to the Dark Matter Problem via Vacuum Viscosity
