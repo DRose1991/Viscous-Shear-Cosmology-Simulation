@@ -88,4 +88,4 @@ This model was validated using the following peer-reviewed observational dataset
 ---
 
 ```bash
-pip install numpy matplotlib scipy pandas astropy emcee corner.
+pip install numpy matplotlib scipy pandas astropy emcee corner
