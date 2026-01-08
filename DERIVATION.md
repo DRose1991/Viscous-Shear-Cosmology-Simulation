@@ -4,7 +4,7 @@ This section outlines the theoretical framework deriving the Viscous Shear Cosmo
 
 ### 1. The Postulates
 
-Standard LCDM cosmology assumes the gravitational constant $G$ is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
+Standard ΛCDM cosmology assumes the gravitational constant $G$ is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
 
 1.  **The Vacuum Fluidity Postulate:** Spacetime possesses an intrinsic resistance to flow (viscosity), represented as a stress tensor $\mathbf{T}$ coupled to the matter density field.
 2.  **The Shear-Dependent Response:** The magnitude of this viscosity (and thus the efficiency of gravitational coupling) is not constant but depends on the local rate of kinematic shear, $\Sigma$.
