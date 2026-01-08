@@ -34,7 +34,7 @@ Without any additional tuning, the VSC model naturally recovers the baryonic Tul
 
 A critical failure mode for many modified gravity theories (e.g., MOND) is the violation of Keplerian dynamics in the high-acceleration regime of the Solar System. We tested the VSC Universal Law against the orbital parameters of Saturn ($r = 9.58$ AU).
 
-Due to the high shear rate of planetary orbits ($\Sigma_{saturn} \sim 2 \times 10^8$ km s$^{-1}$ kpc$^{-1}$), the viscous term $(\Sigma / S_{crit})^{-0.467}$ becomes negligible. The model predicts a velocity deviation for Saturn of $\Delta v < 5$ m/s relative to Newtonian prediction (**Figure 3**), which is below the detection threshold of current ephemerides. This confirms that VSC naturally "switches off" in high-shear local environments.
+Due to the high shear rate of planetary orbits ($\Sigma_{saturn} \sim 2 \times 10^8 \text{ km s}^{-1} \text{ kpc}^{-1}$), the viscous term $(\Sigma / S_{crit})^{-0.467}$ becomes negligible. The model predicts a velocity deviation for Saturn of $\Delta v < 5$ m/s relative to Newtonian prediction (**Figure 3**), which is below the detection threshold of current ephemerides. This confirms that VSC naturally "switches off" in high-shear local environments.
 
 ![Solar System Constraints](VSC_Saturn.png)
 *Figure 3: The "Turn-Off" Mechanism. Viscosity dominates at galactic scales (green) but vanishes at Solar System scales (red).*
