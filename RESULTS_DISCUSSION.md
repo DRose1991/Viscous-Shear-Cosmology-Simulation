@@ -41,7 +41,7 @@ Due to the high shear rate of planetary orbits ($\Sigma_{saturn} \sim 2 \times 1
 
 ### 1.4. Cosmic Expansion History
 
-We compared the VSC prediction for the Hubble parameter evolution $H(z)$ against Cosmic Chronometer data sets (Moresco et al. 2016, Farooq et al. 2017). With a bulk viscosity index of $\nu=0.08$, the VSC model yields a goodness-of-fit $\chi^2 = 9.39$, which is statistically indistinguishable from the standard LCDM model ($\chi^2 = 9.25$).
+We compared the VSC prediction for the Hubble parameter evolution $H(z)$ against Cosmic Chronometer data sets (Moresco et al. 2016, Farooq et al. 2017). With a bulk viscosity index of $\nu=0.08$, the VSC model yields a goodness-of-fit $\chi^2 = 9.39$, which is statistically indistinguishable from the standard ΛCDM model ($\chi^2 = 9.25$).
 
 As illustrated in **Figure 4**, the VSC residual curve follows the observational data within $1\sigma$ error bars. This indicates that a viscous vacuum successfully mimics the accelerating expansion attributed to Dark Energy.
 
