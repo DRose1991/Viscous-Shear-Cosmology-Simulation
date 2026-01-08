@@ -4,7 +4,7 @@ This section outlines the theoretical framework deriving the Viscous Shear Cosmo
 
 ### 1. The Postulates
 
-Standard LCDM cosmology assumes the gravitational constant $G$ is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
+Standard $\Lambda$CDM cosmology assumes the gravitational constant $G$ is invariant across all scales. VSC modifies this assumption based on the "stiffness" of the vacuum:
 
 1.  **The Vacuum Fluidity Postulate:** Spacetime possesses an intrinsic resistance to flow (viscosity), represented as a stress tensor $\mathbf{T}$ coupled to the matter density field.
 2.  **The Shear-Dependent Response:** The magnitude of this viscosity (and thus the efficiency of gravitational coupling) is not constant but depends on the local rate of kinematic shear, $\Sigma$.
@@ -36,6 +36,7 @@ In VSC, baryonic matter does not simply exist *in* the vacuum; it displaces and 
 
 #### A. The Stress-Energy Tensor Modification
 Standard General Relativity uses the Einstein Field Equations:
+
 $$
 G_{\mu\nu} + \Lambda g_{\mu\nu} = \frac{8\pi G}{c^4} T_{\mu\nu}
 $$
@@ -89,8 +90,8 @@ $$
 \beta(\Sigma) = 1 + \left( \frac{\Sigma}{S_{crit}} \right)^{-n}
 $$
 
-* **$S_{crit}$**: The Universal Critical Shear Threshold.
-* **$n$**: The Geometric Scaling Index.
+* $S_{crit}$: The Universal Critical Shear Threshold.
+* $n$: The Geometric Scaling Index.
 
 ### 6. Deriving the Rotation Curve
 
@@ -142,7 +143,7 @@ The power of VSC lies in how this equation behaves at different scales, governed
 Through global optimization against the SPARC database and Cosmic Chronometers, we have empirically determined the universal constants:
 
 * **$n = 0.467$**
-* **$S_{crit} = 100.0$** (km/s/kpc)
+* **$S_{crit} = 100.0 \text{ km s}^{-1} \text{ kpc}^{-1}$**
 
 ---
 
