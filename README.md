@@ -57,6 +57,7 @@ This repository provides the full theoretical and empirical framework for **Visc
 * `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation (Mass proportional to Velocity^4).
 * `VSC_NGC5055_Check.ipynb` & `VSC_NGC3198_Check.ipynb` - Validation against intermediate spiral galaxies.
 * `VSC_Milkyway_Edge_Test.ipynb` - **New**: Validation of the Galactic Hard Edge against Gaia DR3 data.
+* `VSC_Bullet_Cluster_Thixotropy.ipynb` - **New**: Simulation of the Bullet Cluster (1E 0657-56), demonstrating how thermal turbulence decouples viscosity from gas mass.
 
 ### 3. Cosmic Expansion & Hubble Tension
 * `VSC_HubbleTension_Solver.ipynb` - Resolving H0 tension via vacuum viscosity.
@@ -86,6 +87,8 @@ This model was validated using the following peer-reviewed observational dataset
 * **Solar System Constraints:** NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides). [https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html](https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html)
 * **Theoretical Context:** Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." *The Astrophysical Journal*, 270, 365-370. [https://adsabs.harvard.edu/full/1983ApJ...270..365M](https://adsabs.harvard.edu/full/1983ApJ...270..365M)
 * **Milky Way Edge (Gaia DR3):** Jiao, Y., et al. (2023). "Detection of the Keplerian decline in the Milky Way rotation curve." *Astronomy & Astrophysics*, 678, A208. [https://doi.org/10.1051/0004-6361/202347513](https://doi.org/10.1051/0004-6361/202347513)
+* **Cluster Dynamics (Bullet Cluster):** Clowe, D., et al. (2006). "A Direct Empirical Proof of the Existence of Dark Matter." *The Astrophysical Journal Letters*, 648(2), L109. (VSC reproduces these lensing maps via Thixotropic fluid dynamics).
+
 ---
 
 ## 📄 License
