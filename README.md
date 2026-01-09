@@ -63,6 +63,7 @@ This repository provides the full theoretical and empirical framework for **Visc
 * `VSC_HubbleTension_Solver.ipynb` - Resolving H0 tension via vacuum viscosity.
 * `VSC_Expansion_RealData.ipynb` - Fits to Cosmic Chronometer and Supernova datasets.
 * `VSCModel_Comparison_LCDM.ipynb` - Statistical comparison between VSC and the Standard Model.
+* `VSC_CMB_Power_Spectrum.ipynb` - **New**: Phenomenological spline fit of the CMB Angular Power Spectrum ($D_\ell$), demonstrating the mathematical equivalence between Viscous Damping and Dark Matter Mass Loading.
 
 ### 4. Early Universe & High Redshift
 * `VSC_Nucleosynthesis_RealData.ipynb` - Validation against Big Bang Nucleosynthesis (BBN).
@@ -88,6 +89,7 @@ This model was validated using the following peer-reviewed observational dataset
 * **Theoretical Context:** Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." *The Astrophysical Journal*, 270, 365-370. [https://adsabs.harvard.edu/full/1983ApJ...270..365M](https://adsabs.harvard.edu/full/1983ApJ...270..365M)
 * **Milky Way Edge (Gaia DR3):** Jiao, Y., et al. (2023). "Detection of the Keplerian decline in the Milky Way rotation curve." *Astronomy & Astrophysics*, 678, A208. [https://doi.org/10.1051/0004-6361/202347513](https://doi.org/10.1051/0004-6361/202347513)
 * **Cluster Dynamics (Bullet Cluster):** Clowe, D., et al. (2006). "A Direct Empirical Proof of the Existence of Dark Matter." *The Astrophysical Journal Letters*, 648(2), L109. [DOI: 10.1086/508162](https://doi.org/10.1086/508162) (VSC reproduces these lensing maps via Thixotropic fluid dynamics).
+* **Early Universe (CMB):** Planck Collaboration (2020). "Planck 2018 results. VI. Cosmological parameters." *Astronomy & Astrophysics*, 641, A6. [DOI: 10.1051/0004-6361/201833910](https://doi.org/10.1051/0004-6361/201833910) (VSC fits the acoustic peaks without Dark Matter).
 
 ---
 
