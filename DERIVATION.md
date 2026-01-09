@@ -136,7 +136,34 @@ The power of VSC lies in how this equation behaves at different scales, governed
 * The term $(\Sigma / S_{crit})^{-n}$ becomes **dominant**.
 * **Result:** $v_{obs} > v_{newt}$. The rotation curve flattens naturally, mimicking Dark Matter.
 
-### 8. Comparison with Observational Data (Pantheon+)
+### 8. The Boundary Condition (Phase Transition)
+
+Standard ΛCDM assumes a "Soft Edge" where the Dark Matter halo extends indefinitely, preventing Keplerian decline. VSC posits a "Hard Edge" where the vacuum viscosity is strictly coupled to baryonic matter density.
+
+We model this Phase Transition using a hyperbolic tangent switch function $\mathcal{S}(r)$, representing the rapid decay of shear stress at the galactic boundary ($R_{edge}$).
+
+#### A. The Transition Function
+The transition is governed by the thermodynamic gradient of the baryonic fluid density. We approximate this step-function behavior with a smooth tanh operator:
+
+$$
+\mathcal{S}(r) = \frac{1}{2} \left[ 1 - \tanh\left( k (r - R_{edge}) \right) \right]
+$$
+
+Where:
+* $R_{edge} \approx 19.5 \text{ kpc}$ (The empirical density cutoff).
+* $k$ is the transition sharpness (thermodynamic gradient).
+
+#### B. The Total Velocity Operator
+The observed velocity $V_{obs}$ is a linear combination of the Viscous State (inside the galaxy) and the Newtonian State (outside the galaxy):
+
+$$
+V_{obs}(r) = V_{shear}(r) \cdot \mathcal{S}(r) + V_{Newton}(r) \cdot (1 - \mathcal{S}(r))
+$$
+
+* **Regime A ($r \ll R_{edge}$):** $\mathcal{S}(r) \to 1$. The system is supported by viscous shear ($n=-0.467$). The rotation curve remains flat.
+* **Regime B ($r \gg R_{edge}$):** $\mathcal{S}(r) \to 0$. The fluid support vanishes. The system reverts to Newtonian Gravity ($V \propto r^{-1/2}$), producing the "Keplerian Cliff" observed in Gaia DR3 data.
+
+### 9. Comparison with Observational Data (Pantheon+)
 
 To rigorously stress-test the validity of the Viscous Shear model, we extended the derivation to cosmological scales (H(z)) and compared it against the **Pantheon+ Supernovae dataset** (1701 light curves). This test determines if the VSC fluid dynamic model can replicate the observed expansion history of the universe better than the standard ΛCDM model.
 
