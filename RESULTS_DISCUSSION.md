@@ -87,7 +87,7 @@ In classical fluid dynamics, square-root scaling frequently governs **turbulent 
 
 ### 2.3. Solving the "Fine-Tuning" Problem
 
-Standard $\Lambda$CDM cosmology faces a significant "fine-tuning" challenge: why do Dark Matter halos distribute themselves so perfectly to produce flat rotation curves across galaxies of vastly different sizes?
+Standard ΛCDM cosmology faces a significant "fine-tuning" challenge: why do Dark Matter halos distribute themselves so perfectly to produce flat rotation curves across galaxies of vastly different sizes?
 
 VSC resolves this naturally via the **Shear-Dependent Response**.
 * **In high-mass galaxies (M31):** Baryonic shear is high, so the viscous boost is suppressed ($\beta \approx 1$).
