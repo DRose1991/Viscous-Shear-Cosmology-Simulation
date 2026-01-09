@@ -42,7 +42,7 @@ As demonstrated in our simulation (`VSC_Milkyway_Edge_Test.ipynb`), both VSC and
 
 **Figure 3 (below)** illustrates this divergence, confirming that the "Keplerian Cliff" is a natural consequence of VSC's fluid dynamics (No Matter = No Viscosity), whereas it remains an anomaly for infinite halo models.
 
-![Gaia DR3 Edge Test](theJiao.png)
+![Gaia DR3 Edge Test](TheJiao.png)
 *Figure 3: The Jiao Maneuver. VSC (Red) matches the observed drop at the galactic edge, while Standard Dark Matter (Gray) fails to predict the decline.*
 
 ### 1.4. Solar System Constraints
