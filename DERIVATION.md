@@ -163,7 +163,26 @@ $$
 * **Regime A ($r \ll R_{edge}$):** $\mathcal{S}(r) \to 1$. The system is supported by viscous shear ($n=-0.467$). The rotation curve remains flat.
 * **Regime B ($r \gg R_{edge}$):** $\mathcal{S}(r) \to 0$. The fluid support vanishes. The system reverts to Newtonian Gravity ($V \propto r^{-1/2}$), producing the "Keplerian Cliff" observed in Gaia DR3 data.
 
-### 9. Comparison with Observational Data (Pantheon+)
+### 9. The Thixotropic Limit (Thermal Decoherence)
+
+A critical property of the VSC vacuum fluid is **Thixotropy**: the reduction of viscosity under conditions of high turbulent agitation or thermal disorder.
+
+While laminar shear (ordered motion, e.g., orbiting stars) strengthens the vacuum coupling, turbulent shear (random thermal motion, e.g., hot intracluster gas) disrupts the coherent stress field required to maintain $\mathcal{C}_{vac}$.
+
+We model this decoherence by modifying the Effective Shear $\Sigma_{eff}$ with a **Thermal Suppression Factor** $\xi(T)$:
+
+$$
+\Sigma_{eff} = \frac{\Sigma_{kinematic}}{1 + \left( \frac{T_{gas}}{T_{crit}} \right)^\gamma}
+$$
+
+Where:
+* $T_{gas}$ is the kinetic temperature of the baryonic matter.
+* $T_{crit}$ is the critical decoherence temperature (approx $10^7$ K).
+
+**Physical Consequence:**
+In standard galaxies ($T \ll T_{crit}$), the term is negligible, and viscosity functions normally. In galaxy cluster collisions (e.g., the Bullet Cluster), the gas is shock-heated to $10^8$ K. This drives $\xi(T) \gg 1$, effectively suppressing the viscous field locally. This explains why the gravitational potential in the Bullet Cluster follows the collisionless (cold) stars rather than the massive (hot) gas.
+
+### 10. Comparison with Observational Data (Pantheon+)
 
 To rigorously stress-test the validity of the Viscous Shear model, we extended the derivation to cosmological scales (H(z)) and compared it against the **Pantheon+ Supernovae dataset** (1701 light curves). This test determines if the VSC fluid dynamic model can replicate the observed expansion history of the universe better than the standard ΛCDM model.
 
