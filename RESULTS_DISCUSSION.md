@@ -80,7 +80,7 @@ As illustrated in **Figure 5**, the VSC residual curve follows the observational
 We tested the VSC hypothesis against the Planck 2018 angular power spectrum ($200 < \ell < 2500$). The goal was to determine if a viscous vacuum model could reproduce the specific multipole structure (peak heights and locations) attributed to Dark Matter.
 
 **Methodology:**
-Unlike the N-body simulations used for galaxy clusters, solving the full Boltzmann equations for viscous perturbations is computationally prohibitive. Instead, we performed a **Cubic Spline Interpolation** test (`vsc_cmb_power_spectrum.py`) to generate a phenomenological wave profile based on VSC damping constraints.
+Unlike the N-body simulations used for galaxy clusters, solving the full Boltzmann equations for viscous perturbations is computationally prohibitive. Instead, we performed a **Cubic Spline Interpolation** test (`VSC_CMB_Power_Spectrum.ipynb`) to generate a phenomenological wave profile based on VSC damping constraints.
 
 **Result:**
 As shown in **Figure 6** (below), the VSC model successfully accommodates the high-precision Planck data points.
