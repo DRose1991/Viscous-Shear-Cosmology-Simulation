@@ -30,23 +30,38 @@ Without any additional tuning, the VSC model naturally recovers the baryonic Tul
 ![Tully-Fisher Relation](VSC_TullyFisher_Proof.png)
 *Figure 2: The VSC model naturally recovers the Tully-Fisher slope (~4.0) from geometric principles.*
 
-### 1.3. Solar System Constraints
+### 1.3. The Milky Way Edge Test (Gaia DR3)
+
+We subjected the VSC model to a "stress test" using recent Gaia DR3 data (Jiao et al., 2023) regarding the Milky Way's outer rotation curve. This regime ($r > 19$ kpc) represents a critical boundary where stellar density drops significantly.
+
+**The "Twin & Split" Phenomenon**
+As demonstrated in our simulation (`VSC_Milkyway_Edge_Test.ipynb`), both VSC and the Standard $\Lambda$CDM model produce identical predictions ("Twins") within the optical disk ($r < 19$ kpc), effectively matching the flat rotation speed of ~220 km/s. However, a divergence occurs exactly at the galactic edge:
+
+* **Standard Model Failure:** The NFW Dark Matter halo predicts a "Soft Edge," maintaining high velocities (>200 km/s) well into the void. This contradicts the Gaia data, which shows a sharp Keplerian decline.
+* **VSC Success:** The Viscous Shear model predicts a "Hard Edge" Phase Transition. As baryonic density drops, the viscosity coefficient vanishes, causing the rotation curve to snap down to the Newtonian expectation.
+
+**Figure 3 (below)** illustrates this divergence, confirming that the "Keplerian Cliff" is a natural consequence of VSC's fluid dynamics (No Matter = No Viscosity), whereas it remains an anomaly for infinite halo models.
+
+![Gaia DR3 Edge Test](theJiao.png)
+*Figure 3: The Jiao Maneuver. VSC (Red) matches the observed drop at the galactic edge, while Standard Dark Matter (Gray) fails to predict the decline.*
+
+### 1.4. Solar System Constraints
 
 A critical failure mode for many modified gravity theories (e.g., MOND) is the violation of Keplerian dynamics in the high-acceleration regime of the Solar System. We tested the VSC Universal Law against the orbital parameters of Saturn ($r = 9.58$ AU).
 
-Due to the high shear rate of planetary orbits ($\Sigma_{saturn} \sim 2 \times 10^8 \text{ km s}^{-1} \text{ kpc}^{-1}$), the viscous term $(\Sigma / S_{crit})^{-0.467}$ becomes negligible. The model predicts a velocity deviation for Saturn of $\Delta v < 5$ m/s relative to Newtonian prediction (**Figure 3**), which is below the detection threshold of current ephemerides. This confirms that VSC naturally "switches off" in high-shear local environments.
+Due to the high shear rate of planetary orbits ($\Sigma_{saturn} \sim 2 \times 10^8 \text{ km s}^{-1} \text{ kpc}^{-1}$), the viscous term $(\Sigma / S_{crit})^{-0.467}$ becomes negligible. The model predicts a velocity deviation for Saturn of $\Delta v < 5$ m/s relative to Newtonian prediction (**Figure 4**), which is below the detection threshold of current ephemerides. This confirms that VSC naturally "switches off" in high-shear local environments.
 
 ![Solar System Constraints](VSC_Saturn.png)
-*Figure 3: The "Turn-Off" Mechanism. Viscosity dominates at galactic scales (green) but vanishes at Solar System scales (red).*
+*Figure 4: The "Turn-Off" Mechanism. Viscosity dominates at galactic scales (green) but vanishes at Solar System scales (red).*
 
-### 1.4. Cosmic Expansion History
+### 1.5. Cosmic Expansion History
 
 We compared the VSC prediction for the Hubble parameter evolution $H(z)$ against Cosmic Chronometer data sets (Moresco et al. 2016, Farooq et al. 2017). With a bulk viscosity index of $\nu=0.08$, the VSC model yields a goodness-of-fit $\chi^2 = 9.39$, which is statistically indistinguishable from the standard ΛCDM model ($\chi^2 = 9.25$).
 
-As illustrated in **Figure 4**, the VSC residual curve follows the observational data within $1\sigma$ error bars. This indicates that a viscous vacuum successfully mimics the accelerating expansion attributed to Dark Energy.
+As illustrated in **Figure 5**, the VSC residual curve follows the observational data within $1\sigma$ error bars. This indicates that a viscous vacuum successfully mimics the accelerating expansion attributed to Dark Energy.
 
 ![Cosmic Expansion H(z)](VSC_Sanity_Check.png)
-*Figure 4: Residual analysis of VSC expansion history vs. Cosmic Chronometer data.*
+*Figure 5: Residual analysis of VSC expansion history vs. Cosmic Chronometer data.*
 
 ---
 
