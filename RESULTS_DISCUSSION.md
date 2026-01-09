@@ -85,7 +85,7 @@ Unlike the N-body simulations used for galaxy clusters, solving the full Boltzma
 **Result:**
 As shown in **Figure 6** (below), the VSC model successfully accommodates the high-precision Planck data points.
 * **Acoustic Scale:** The spacing of the peaks is preserved, indicating that Viscous Drag slows the acoustic horizon expansion identically to Dark Matter Mass Loading.
-* **Damping Tail:** The suppression of the high-$\ell$ tail is consistent with viscous dissipation replacing Silk Damping.
+* **Damping Tail:** The suppression of the high-ℓ tail is consistent with viscous dissipation replacing Silk Damping.
 
 **Conclusion:**
 While a full Boltzmann solver is required for first-principles confirmation, this result demonstrates that there is no morphological barrier to replacing Dark Matter with Vacuum Viscosity in the early universe. The two mechanisms are phenomenologically equivalent.
