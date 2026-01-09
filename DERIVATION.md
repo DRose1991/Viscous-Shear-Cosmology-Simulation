@@ -138,11 +138,11 @@ The power of VSC lies in how this equation behaves at different scales, governed
 
 ### 8. Comparison with Observational Data (Pantheon+)
 
-To rigorously stress-test the validity of the Viscous Shear model, we extended the derivation to cosmological scales ($H(z)$) and compared it against the **Pantheon+ Supernovae dataset** (1701 light curves). This test determines if the VSC fluid dynamic model can replicate the observed expansion history of the universe better than the standard $\Lambda$CDM model.
+To rigorously stress-test the validity of the Viscous Shear model, we extended the derivation to cosmological scales (H(z)) and compared it against the **Pantheon+ Supernovae dataset** (1701 light curves). This test determines if the VSC fluid dynamic model can replicate the observed expansion history of the universe better than the standard ΛCDM model.
 
 Using the VSC viscosity index $\nu=0.08$ (derived from the shear operator), we performed a Chi-Squared ($\chi^2$) goodness-of-fit analysis.
 
-**Table 1: Statistical Performance (VSC vs. $\Lambda$CDM)**
+**Table 1: Statistical Performance (VSC vs. ΛCDM)**
 
 | Model | Parameter | Chi-Squared ($\chi^2$) | Reduced $\chi^2$ | Status |
 | :--- | :--- | :--- | :--- | :--- |
