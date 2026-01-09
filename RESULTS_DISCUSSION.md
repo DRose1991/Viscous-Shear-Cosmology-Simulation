@@ -45,7 +45,19 @@ As demonstrated in our simulation (`VSC_Milkyway_Edge_Test.ipynb`), both VSC and
 ![Gaia DR3 Edge Test](TheJiao.png)
 *Figure 3: The Jiao Maneuver. VSC (Red) matches the observed drop at the galactic edge, while Standard Dark Matter (Gray) fails to predict the decline.*
 
-### 1.4. Solar System Constraints
+### 1.4. The Bullet Cluster (1E 0657-56) Test
+
+The Bullet Cluster collision represents a critical failure mode for many alternative gravity theories. Observations show that the gravitational potential (lensing) follows the collisionless stellar component, rather than the dominant baryonic mass (X-ray gas) which is stripped and halted in the center.
+
+**The Thixotropic Vacuum Hypothesis**
+VSC resolves this anomaly by treating the vacuum as a **Thixotropic Fluid**. In fluid dynamics, thixotropy describes materials that lose viscosity under high shear stress or turbulent agitation.
+* **Stellar Component (Laminar Flow):** The stars pass through the collision with coherent, ordered motion. This preserves the "Shear Structure" of the vacuum, maintaining strong gravitational coupling ($\beta > 1$).
+* **Gas Component (Turbulent Flow):** The intracluster gas is shock-heated to $10^8$ K, entering a state of extreme thermal turbulence. This chaotic motion destroys the local shear coherence, effectively "melting" the vacuum structure and forcing the region back to a Newtonian state ($\beta \approx 1$).
+
+**Simulation Results**
+As shown in our simulation (`VSC_Bullet_Cluster_Thixotropy.ipynb`), applying a turbulence penalty to the hot gas component successfully reproduces the observed lensing map. The effective gravitational potential naturally decouples from the massive central gas cloud and re-centers on the laminar stellar groups.
+
+### 1.5. Solar System Constraints
 
 A critical failure mode for many modified gravity theories (e.g., MOND) is the violation of Keplerian dynamics in the high-acceleration regime of the Solar System. We tested the VSC Universal Law against the orbital parameters of Saturn ($r = 9.58$ AU).
 
@@ -54,7 +66,7 @@ Due to the high shear rate of planetary orbits ($\Sigma_{saturn} \sim 2 \times 1
 ![Solar System Constraints](VSC_Saturn.png)
 *Figure 4: The "Turn-Off" Mechanism. Viscosity dominates at galactic scales (green) but vanishes at Solar System scales (red).*
 
-### 1.5. Cosmic Expansion History
+### 1.6. Cosmic Expansion History
 
 We compared the VSC prediction for the Hubble parameter evolution $H(z)$ against Cosmic Chronometer data sets (Moresco et al. 2016, Farooq et al. 2017). With a bulk viscosity index of $\nu=0.08$, the VSC model yields a goodness-of-fit $\chi^2 = 9.39$, which is statistically indistinguishable from the standard ΛCDM model ($\chi^2 = 9.25$).
 
