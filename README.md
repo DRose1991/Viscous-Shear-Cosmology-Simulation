@@ -56,7 +56,7 @@ This repository provides the full theoretical and empirical framework for **Visc
 * `VSC_LocalShearTerm_Andromeda.ipynb` - Detailed breakdown of the M31 rotation curve.
 * `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation (Mass proportional to Velocity^4).
 * `VSC_NGC5055_Check.ipynb` & `VSC_NGC3198_Check.ipynb` - Validation against intermediate spiral galaxies.
-* `vsc_milkyway_edge_test.ipynb` - **New**: Validation of the Galactic Hard Edge against Gaia DR3 data.
+* `VSC_Milkyway_Edge_Test.ipynb` - **New**: Validation of the Galactic Hard Edge against Gaia DR3 data.
 
 ### 3. Cosmic Expansion & Hubble Tension
 * `VSC_HubbleTension_Solver.ipynb` - Resolving H0 tension via vacuum viscosity.
