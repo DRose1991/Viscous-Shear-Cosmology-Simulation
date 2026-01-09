@@ -84,7 +84,16 @@ This model was validated using the following peer-reviewed observational dataset
 * **High-Redshift Observations:** JWST/JADES Survey (Public Data Releases 2023/2024). [https://archive.stsci.edu/hlsp/jades](https://archive.stsci.edu/hlsp/jades)
 * **Solar System Constraints:** NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides). [https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html](https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html)
 * **Theoretical Context:** Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." *The Astrophysical Journal*, 270, 365-370. [https://adsabs.harvard.edu/full/1983ApJ...270..365M](https://adsabs.harvard.edu/full/1983ApJ...270..365M)
-
+@article{jiao2023keplerian,
+  title={Detection of the Keplerian decline in the Milky Way rotation curve},
+  author={Jiao, Y. and Hammer, F. and Wang, J.L. and others},
+  journal={Astronomy & Astrophysics},
+  volume={678},
+  pages={A208},
+  year={2023},
+  publisher={EDP Sciences},
+  note={Data source for Gaia DR3 rotation curve drop (The "Hard Edge")}
+}
 ---
 
 ## 📄 License
