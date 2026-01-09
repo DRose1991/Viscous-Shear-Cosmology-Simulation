@@ -87,7 +87,7 @@ This model was validated using the following peer-reviewed observational dataset
 * **Solar System Constraints:** NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides). [https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html](https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html)
 * **Theoretical Context:** Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." *The Astrophysical Journal*, 270, 365-370. [https://adsabs.harvard.edu/full/1983ApJ...270..365M](https://adsabs.harvard.edu/full/1983ApJ...270..365M)
 * **Milky Way Edge (Gaia DR3):** Jiao, Y., et al. (2023). "Detection of the Keplerian decline in the Milky Way rotation curve." *Astronomy & Astrophysics*, 678, A208. [https://doi.org/10.1051/0004-6361/202347513](https://doi.org/10.1051/0004-6361/202347513)
-* **Cluster Dynamics (Bullet Cluster):** Clowe, D., et al. (2006). "A Direct Empirical Proof of the Existence of Dark Matter." *The Astrophysical Journal Letters*, 648(2), L109. (VSC reproduces these lensing maps via Thixotropic fluid dynamics).
+* **Cluster Dynamics (Bullet Cluster):** Clowe, D., et al. (2006). "A Direct Empirical Proof of the Existence of Dark Matter." *The Astrophysical Journal Letters*, 648(2), L109. [DOI: 10.1086/508162](https://doi.org/10.1086/508162) (VSC reproduces these lensing maps via Thixotropic fluid dynamics).
 
 ---
 
