@@ -56,6 +56,7 @@ This repository provides the full theoretical and empirical framework for **Visc
 * `VSC_LocalShearTerm_Andromeda.ipynb` - Detailed breakdown of the M31 rotation curve.
 * `VSC_TullyFisher_Proof.ipynb` - Derivation of the Tully-Fisher relation (Mass proportional to Velocity^4).
 * `VSC_NGC5055_Check.ipynb` & `VSC_NGC3198_Check.ipynb` - Validation against intermediate spiral galaxies.
+* `vsc_milkyway_edge_test.ipynb` - **New**: Validation of the Galactic Hard Edge against Gaia DR3 data.
 
 ### 3. Cosmic Expansion & Hubble Tension
 * `VSC_HubbleTension_Solver.ipynb` - Resolving H0 tension via vacuum viscosity.
@@ -84,16 +85,7 @@ This model was validated using the following peer-reviewed observational dataset
 * **High-Redshift Observations:** JWST/JADES Survey (Public Data Releases 2023/2024). [https://archive.stsci.edu/hlsp/jades](https://archive.stsci.edu/hlsp/jades)
 * **Solar System Constraints:** NASA Planetary Fact Sheet (Saturn orbital parameters and Cassini mission ephemerides). [https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html](https://nssdc.gsfc.nasa.gov/planetary/factsheet/saturnfact.html)
 * **Theoretical Context:** Milgrom, M. (1983). "A modification of the Newtonian dynamics as a possible alternative to the hidden mass hypothesis." *The Astrophysical Journal*, 270, 365-370. [https://adsabs.harvard.edu/full/1983ApJ...270..365M](https://adsabs.harvard.edu/full/1983ApJ...270..365M)
-@article{jiao2023keplerian,
-  title={Detection of the Keplerian decline in the Milky Way rotation curve},
-  author={Jiao, Y. and Hammer, F. and Wang, J.L. and others},
-  journal={Astronomy & Astrophysics},
-  volume={678},
-  pages={A208},
-  year={2023},
-  publisher={EDP Sciences},
-  note={Data source for Gaia DR3 rotation curve drop (The "Hard Edge")}
-}
+* **Milky Way Edge (Gaia DR3):** Jiao, Y., et al. (2023). "Detection of the Keplerian decline in the Milky Way rotation curve." *Astronomy & Astrophysics*, 678, A208. [https://doi.org/10.1051/0004-6361/202347513](https://doi.org/10.1051/0004-6361/202347513)
 ---
 
 ## 📄 License
